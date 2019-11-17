@@ -1,0 +1,214 @@
+body{
+    margin: 0px;
+}
+
+.main-header{
+    background-image: url("../images/technology.JPG");
+    padding: 10px 15px;
+    text-align: right;
+    color: white;
+    font-family: "Courier 10 Pitch";
+    font-size:30px
+}
+
+.main-nav{
+    background: linear-gradient(45deg,darkblue,darkmagenta,darksalmon);
+    padding: 10px;
+}
+.main-nav a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+}
+.main-nav a:hover{
+    background: linear-gradient(45deg,darkmagenta,palevioletred);
+    border-radius: 50px;
+    box-shadow: 0 0 2px white;
+}
+
+
+/*-----------------main news section -----------------------------------*/
+.main-news{
+    text-align: center;
+}
+.main-news-artical{
+    border: 2px solid black;
+    margin: 10px;
+    width: 300px;
+    height: 550px;
+    display: inline-grid;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all 0.5s;
+}
+.main-news-artical img{
+    width: 100%;
+}
+.main-news-artical:hover{
+    width: 340px;
+    box-shadow: 0 0 10px orangered;
+}
+.main-news-artical h2{
+ color: darkmagenta;
+}
+
+
+/*-----------------main next news section -----------------------------------*/
+
+.home-news{
+    width: 80%;
+    margin: auto;
+}
+.home-new-artical{
+    background-color: lightcyan;
+    border: 2px solid black;
+    margin: 10px;
+   text-align: center;
+    margin: 20px;
+    box-shadow: 0 0 10px orangered;
+    border-radius: 50px;
+}
+.home-new-artical h2{
+    color:  palevioletred;
+    text-shadow: 0 0 1px black;
+}
+
+.zoom{
+    width: 700px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px darkred;
+    overflow: hidden;
+}
+.zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.zoom:hover img{
+    transform: scale(1.5,1.5);
+    cursor: pointer;
+}
+
+
+/*----------------------gallary section----------------*/
+.gallary-image{
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+.images {
+ border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.zoom-image{
+    width: 350px;
+    height: 250px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px darkred;
+    overflow: hidden;
+}
+.zoom-image img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.zoom-image:hover img{
+    transform: scale(1.5,1.5);
+    cursor: pointer;
+}
+
+/*-------------------------Footer---------------------------------*/
+
+.home-footer{
+    padding: 15px;
+    background-image: url("../images/image5.jpeg");
+    text-align: center;
+    color: white;
+}
+
+
+/*----------------About Us section----------------*/
+.about{
+    width: 80%;
+    margin: auto;
+
+}
+.about-detail{
+    background:white url("../images/article_tablet.jpg")  scroll bottom;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    box-shadow: 0 0 5px black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all 0.5s;
+}
+.about-detail p{
+    font-family: "Courier 10 Pitch";
+    font-size: 28px;
+    color: white;
+
+}
+.about-detail h3{
+    font-family: "Century Schoolbook L";
+    font-size: 40px;
+    color: darkslateblue;
+}
+.about-detail:hover{
+
+    box-shadow: 0 0 15px darkmagenta;
+    cursor: pointer;
+}
+
+
+/*-----------------------COntact Us section -------------------------*/
+.conatct-back{
+    background: white url("../images/image5.jpeg") no-repeat scroll bottom;
+    padding: 12px;
+}
+
+.contact-block{
+    border: 2px solid black;
+    width: 250px;
+    margin: 120px auto 0px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 2px greenyellow;
+}
+.contact-block h3{
+    color: darkgoldenrod;
+}
+.contact-content input{
+    padding: 10px;
+    margin: 6px;
+    border: none;
+    background-color: rgba(0,0,0,0.2);
+    border-bottom: 2px solid red;
+    color: white;
+    text-align: center;
+}
+.contact-content textarea{
+    width: 200px;
+    padding: 10px;
+    margin: 6px;
+}
+.contact-content input[type=submit]{
+    padding: 20px;
+    border-radius: 20px;
+}
+.contact-content input[type=submit]:hover{
+    background:linear-gradient(45deg,darkmagenta,darkgoldenrod);
+}
