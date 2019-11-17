@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/*header and nav*/
+header{
+    background: url(img/gallery_laptop_2.jpg);
+    
+    padding: 10px;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+  
+}
+nav li{
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+header .brand{
+    float: left;
+}
+nav ul{
+    float: right;
+    margin-top: 40px;
+}
+nav a:hover{
+    color: red;
+    border-top: 2px solid red;
+    font-size: 22px;
+}
+nav .active{
+    background-color: gray;
+    padding: 10px;
+}
+header .brand h1{
+    border-bottom: 2px solid red;
+} 
+
+/*Search section */
+#search-section{
+    background-color: gray;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+#search-section h1{
+    font-size: 50px;
+    border-bottom:2px solid red;
+}
+#search-section p{
+    font-size: 15px;
+    width: 60%;
+    margin: auto;
+}
+
+#search-section .search-content{
+    float: left;
+}
+
+#search-section form{
+    float: right;
+    margin-bottom:10px;
+}
+#search-form input[type="text"]{
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 0;
+    color: white;
+    border-bottom:2px solid red;
+    font-weight: bold;
+}
+#search-form select{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: 0;
+    font-weight: bold;
+}
+
+/*Read Section*/
+#read-section{
+    background-color: lightgray;
+   padding-bottom: 20px;
+}
+#read-section .read{
+    margin-top: 20px;
+    background: url(img/image5.jpeg);
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#read-section .read p{
+    margin-top: 50px;
+    text-align: center;
+    width: 70%;
+    float: left;
+    font-size: 20px;
+}
+#read-section .red img{
+    float: right;
+}
+
+/*footer*/
+footer{
+    background-color: gray;
+    text-align: center;
+    color: white;
+   
+}
+footer h3{
+    color: burlywood;
+    font-size: 30px;
+}
+footer  p{
+    font-size: 20px;
+}
+
+footer h3{
+   
+}
+
+/*Donate Section*/
+#donate-section{
+    background: url(img/image5.jpeg);
+    padding: 15px;
+}
+#donate-artical{
+    background: rgba(0, 0, 0, 0.7);
+    width: 300px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px blanchedalmond;
+}
+#donate-artical h2{
+    color: orange;
+}
+.input-field{    
+    margin-bottom: 30px;
+    width: 170px;
+    padding: 7px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: 0;
+    border-bottom:1px solid orange;
+    font-size: 20px;
+}
+#donate-form input[type="submit"]{
+    font-size: 20px;
+    width: 90px;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 0 0 10px 0 blanchedalmond;
+}
+.input-field:hover{
+    font-size: 21px;
+}
+
+/*Donation Tips*/
+#blood-tip{
+
+    background: url(img/image5.jpeg);
+    padding: 15px;
+}
+
+#tips{
+   
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px blanchedalmond;
+   margin-top: 10px;
+   width: 900px;
+   margin-left: 20px;
+}
+#tips h1{
+    color: red;
+}
+#tips p{
+    font-size: 20px;
+}
+#tips:hover{
+  transform:skew(8deg);
+}
