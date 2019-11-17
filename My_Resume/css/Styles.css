@@ -1,0 +1,142 @@
+/*---------slider-------*/
+.sidebar{
+    background-color: aquamarine;
+    float: left;
+    width: 300px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    box-shadow: 0px 0px 20px blueviolet;
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    padding: 25px 20px;
+    color: black;
+    font-weight: revert;
+    font-family: sans-serif;
+}
+.sidebar a:hover{
+    color: red;
+    transform: scale(1.2);
+}
+.sidebar img{
+    border: 6px solid blueviolet;
+    border-radius: 50%;
+}
+
+/*---------About Section-------*/
+#about_section{
+    margin-top: 110px;
+    margin-left: 310px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px blueviolet;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+#fname{
+    padding: 10px;
+    color: chocolate;
+    font-size: 40px;
+    text-shadow: 4px 4px 0px lightslategrey;
+}
+#lname{
+    color: chocolate;
+    font-size: 40px;
+    text-shadow: 4px 4px 0px lightslategrey;
+}
+#about_section h3{
+
+}
+
+/*---------Education Section-------*/
+#education_section{
+    margin-top: 100px;
+    margin-left: 330px;
+}
+.education{
+    color: darkorchid;
+    text-shadow: 0px 2px 0px red;
+}
+.education_detail{
+    margin-left: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: 0px 0px 20px blueviolet;
+}
+.education_detail:hover{
+    background-color: blueviolet;
+    color: white;
+    transform: skew(5deg);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+/*---------Interest Section-------*/
+#interest_section{
+    margin-top: 80px;
+    margin-left: 330px;
+}
+.interest_detail{
+    margin-top: 20px;
+    margin-left: 15px;
+    box-shadow: 0px 0px 20px blueviolet;
+    padding: 15px;
+}
+.interest_detail:hover{
+    background-color: blueviolet;
+    color: white;
+    transform: skew(5deg);
+}
+.fa{
+    font-size: 30px;
+    margin: 5px;
+}
+
+/*---------Certification Section-------*/
+#certification_section{
+    margin-top: 80px;
+    margin-left: 330px;
+}
+.certific_detail{
+    margin-top: 79px;
+    margin-left: 20px;
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+    padding: 15px;
+    box-shadow: 0px 0px 20px blueviolet;
+    border-radius: 4%;
+}
+.certific_detail:hover{
+    background-color: blueviolet;
+    color: white;
+    transform: scale(1.1);
+}
+.certific_detail img{
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    margin-top: -70px;
+    width: 60%;
+}
+
+/*---------Technologies Section-------*/
+#technologies_section{
+    margin-top: 80px;
+    margin-left: 330px;
+}
+.technologies_detail{
+    margin-top: 20px;
+    margin-left: 15px;
+    box-shadow: 0px 0px 20px blueviolet;
+    padding: 15px;
+    }
+.technologies_detail:hover{
+    background-color: blueviolet;
+    color: white;
+    transform: skew(10deg);
+}
